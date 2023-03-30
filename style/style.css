@@ -1,0 +1,62 @@
+body{font-family: 'roboto';    background-color: #e5e5e5;}
+
+.head{
+    background-color: #CF2B2B;
+    height: 92px;
+    width: 100%;
+    padding-left: 21px;    
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+    z-index: 1;
+}
+
+.logo{font-family: 'Righteous';font-weight: 400px;line-height: 55px; font-size: 44px;color: white;}
+.bordao{font-weight: 400;font-size: 18px;line-height: 21px;color: white;}
+
+
+
+.content{
+    margin-top: 123px;
+    margin-bottom: 108px;
+}
+
+.topico{font-family: 'Righteous'; font-size: 26px; font-weight: 400; line-height: 32px; color: #333333;margin: 15px 0px 15px 0px;}
+
+
+.pedido{
+    height: 92px; 
+    background-color: #ffffff;
+    position: fixed; 
+    width: 100%; 
+    bottom: 0px; 
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pedido button{
+    width: 365px;
+    height: 60px;
+    background-color: #cbcbcb;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    border: none;
+}
+
+
+.opcoes{background-color: #CF2B2B; overflow-x: scroll; width: 414px;}
+.opcao{background-color: white; width: 172px; box-shadow: px 0px 10px -4px rgba(0, 0, 0, 0.25);border-radius: 9px;margin: 15px;}
+
+
+.display-flex{
+    display: flex;
+}
+
+
+
