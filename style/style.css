@@ -1,13 +1,13 @@
 body{font-family: 'roboto';    background-color: #e5e5e5;}
 
-.head{
-    background-color: #CF2B2B;
-    height: 92px;
-    width: 100%;
-    padding-left: 21px;    
+.menu{
     position: fixed;
     top: 0px; 
     left: 0px;
+    background-color: #CF2B2B;
+    height: 92px;
+    width: 414px;
+    padding-left: 21px;    
     z-index: 1;
 }
 
@@ -25,10 +25,10 @@ body{font-family: 'roboto';    background-color: #e5e5e5;}
 
 
 .pedido{
+    width: 414px;
     height: 92px; 
     background-color: #ffffff;
     position: fixed; 
-    width: 100%; 
     bottom: 0px; 
     left: 0px;
     display: flex;
@@ -37,26 +37,28 @@ body{font-family: 'roboto';    background-color: #e5e5e5;}
 }
 
 .pedido button{
-    width: 365px;
+    width: 364px;
     height: 60px;
     background-color: #cbcbcb;
     border-radius: 50px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
     color: white;
     border: none;
 }
 
 
-.opcoes{background-color: #CF2B2B; overflow-x: scroll; width: 414px;}
-.opcao{background-color: white; width: 172px; box-shadow: px 0px 10px -4px rgba(0, 0, 0, 0.25);border-radius: 9px;margin: 15px;}
-
-
+.opcoes{overflow-x: scroll; width: 100%;}
+.opcao{background-color: white; width: 172px; height: 216px;box-shadow: px 0px 10px -4px rgba(0, 0, 0, 0.25);border-radius: 9px;margin: 10px;flex-shrink: 0;display: flex;flex-direction: column;justify-content: center; align-items: center;}
+.opcao img{height: 87px;width: 144px; border-radius: 4px;}
+.nome{font-size:16px;font-weight:700 ;line-height:19px ;color: #333333;margin-top: 8px;}
+.descricao{font-size: 15px;font-weight: 300; color:#a6a6a6;line-height:18px;margin-top: 4px;}
+.preco{font-family: 'Roboto';    font-weight: 400;    font-size: 16px;    line-height: 19px; margin-top: 7px;}
 .display-flex{
     display: flex;
 }
+.topico{margin-left:19px;}
 
 
 
