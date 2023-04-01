@@ -6,12 +6,12 @@
     <title>Driven eats</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
     
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
 
-    <script src='main.js'></script>
+
 </head>
 <body>
     <div class="menu">
@@ -22,26 +22,26 @@
     <div class="content">
 
         <div class="topico"> Primeiro seu prato </div>
-        <div class="opcoes display-flex overflow">
-            <div class="opcao">
+        <div class="opcoes display-flex pratos">
+            <div class="opcao prato1" onclick="selecionar('.prato1','.pratos')">
                 <img src="./figures/ovo.jpg" alt="ovo">
                 <div class="nome">Omelete do Souma</div>
                 <div class="descricao">Bom, barato e gostoso</br> com Umami extra</div>
-                <div class="preco">R$14,90</div>
+                <div class="preco"><div>R$14,90</div>    <ion-icon name="checkmark-circle" class="invisivel">teste</ion-icon> </div>
             </div>
-            <div class="opcao">
+            <div class="opcao prato2" onclick="selecionar('.prato2','.pratos')">
                 
                 <img src="./figures/curry.png" alt="NBA">
                 <div class="nome">Stephen's curry</div>
                 <div class="descricao">A piada é ruim mas</br>o prato é bom!</div>
-                <div class="preco">R$18,90</div>
+                <div class="preco"> <div>R$24,90</div>    <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
 
             </div>
-            <div class="opcao">
+            <div class="opcao prato3" onclick="selecionar('.prato3','.pratos')">
                 <img src="./figures/lamen.jpg" alt="NBA">
                 <div class="nome">Ichiraku ramen</div>
                 <div class="descricao">parece miojo só que</br>vem mais coisa</div>
-                <div class="preco">R$21,90</div>
+                <div class="preco"> <div>R$34,90</div>    <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
 
             </div>
         </div>
@@ -50,47 +50,47 @@
 
     <div class="topico"> Agora, sua bebida </div>
     
-    <div class="opcoes display-flex">
-        <div class="opcao">
+    <div class="opcoes display-flex bebidas">
+        <div class="opcao bebida1" onclick="selecionar('.bebida1','.bebidas')">
             <img src="./figures/coffee.jpg" alt="kfezin">
             <div class="nome">Café expresso</div>
             <div class="descricao">preferido dos ghouls</br>e dos programadores</div>
-            <div class="preco">R$2,90</div>
+            <div class="preco"> <div>R$1,40</div>    <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
         </div>
-        <div class="opcao">
+        <div class="opcao bebida2" onclick="selecionar('.bebida2','.bebidas')">
             <img src="./figures/slurm.jpeg" alt="futurama">
             <div class="nome">Slurm cola</div>
             <div class="descricao">DIreto do século</br>XXXI para você</div>
-            <div class="preco">R$3,90</div>
+            <div class="preco"> <div>R$3,40</div>    <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
         </div>
-        <div class="opcao">
+        <div class="opcao bebida3" onclick="selecionar('.bebida3','.bebidas')">
             <img src="./figures/duff.jpg" alt="duff">
             <div class="nome">Cerveja Duff</div>
             <div class="descricao">Duffman adverte</br>destinado à adultos</div>
-            <div class="preco">R$4,90</div>
+            <div class="preco"> <div>R$3,90</div>    <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
         </div>
     </div>
 
     <div class="topico"> Por fim, sua sobremesa </div>
     
-    <div class="opcoes display-flex overflow">
-        <div class="opcao">
+    <div class="opcoes display-flex sobremesas">
+        <div class="opcao sobremesa1" onclick="selecionar('.sobremesa1','.sobremesas')">
             <img src="./figures/akuma.jpeg" alt="akuma no mi">
             <div class="nome">Fruta suspeita</div>
             <div class="descricao">Um pirata ruivo que</br>nos vendeu isso ai</div>
-            <div class="preco">R$0,90</div>
+            <div class="preco"><div>R$0,90</div>    <ion-icon name="checkmark-circle" class="invisivel"></ion-icon></div>
         </div>
-        <div class="opcao">
+        <div class="opcao sobremesa2" onclick="selecionar('.sobremesa2','.sobremesas')">
             <img src="./figures/malasada.png" alt="alola!">
             <div class="nome">Malasada Grande</div>
             <div class="descricao">Cura 20 de HP e</br>condições especiais</div>
-            <div class="preco">R$2,90</div>
+            <div class="preco"><div>R$3,90</div>    <ion-icon name="checkmark-circle" class="invisivel"></ion-icon></div>
         </div>
-        <div class="opcao">
+        <div class="opcao sobremesa3" onclick="selecionar('.sobremesa3','.sobremesas')">
             <img src="./figures/takoyaki.png" alt="Hanabi lá vou eu!">
             <div class="nome">Bolinho de polvo</div>
             <div class="descricao">Perfeito para festival</br>de fim de temporada</div>
-            <div class="preco">R$4,90</div>
+            <div class="preco"><div>R$5,90</div>    <ion-icon name="checkmark-circle" class="invisivel"></ion-icon></div>
         </div>
     </div>
     
@@ -124,5 +124,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
+
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 </html>

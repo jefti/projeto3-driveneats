@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body{font-family: 'roboto';    background-color: #e5e5e5;}
 
 .menu{
@@ -6,7 +10,7 @@ body{font-family: 'roboto';    background-color: #e5e5e5;}
     left: 0px;
     background-color: #CF2B2B;
     height: 92px;
-    width: 414px;
+    width: 100%;    
     padding-left: 21px;    
     z-index: 1;
 }
@@ -17,7 +21,7 @@ body{font-family: 'roboto';    background-color: #e5e5e5;}
 
 
 .content{
-    margin-top: 123px;
+    margin-top: 108px;
     margin-bottom: 108px;
 }
 
@@ -25,7 +29,7 @@ body{font-family: 'roboto';    background-color: #e5e5e5;}
 
 
 .pedido{
-    width: 414px;
+    width: 100%;
     height: 92px; 
     background-color: #ffffff;
     position: fixed; 
@@ -36,16 +40,19 @@ body{font-family: 'roboto';    background-color: #e5e5e5;}
     justify-content: center;
 }
 
-.pedido button{
-    width: 364px;
+.pedido button {
+    width: 88%;
     height: 60px;
-    background-color: #cbcbcb;
     border-radius: 50px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     color: white;
     border: none;
+    background-color: #32b723;
+}
+.pedido button[disabled] {
+    background-color: #cbcbcb;
 }
 
 
@@ -54,11 +61,15 @@ body{font-family: 'roboto';    background-color: #e5e5e5;}
 .opcao img{height: 87px;width: 144px; border-radius: 4px;}
 .nome{font-size:16px;font-weight:700 ;line-height:19px ;color: #333333;margin-top: 8px;}
 .descricao{font-size: 15px;font-weight: 300; color:#a6a6a6;line-height:18px;margin-top: 4px;}
-.preco{font-family: 'Roboto';    font-weight: 400;    font-size: 16px;    line-height: 19px; margin-top: 7px;}
+.preco{font-family: 'Roboto';font-weight: 400;font-size: 16px;line-height: 19px;margin-top: 7px; display: flex; justify-content: space-between;align-items: center; width: 144px;}
+.preco ion-icon{color: #32b723;font-size: 16px;}
+
+
 .display-flex{
     display: flex;
 }
 .topico{margin-left:19px;}
+.invisivel{display:none;}
 
-
+.selecionado{border: 9px solid #32b72f}
 
