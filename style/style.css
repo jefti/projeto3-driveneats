@@ -73,3 +73,14 @@ body{font-family: 'roboto';    background-color: #e5e5e5;}
 
 .selecionado{border: 9px solid #32b72f}
 
+.frente{position: fixed;top:0;left:0;z-index: 4}
+.bonus_back{background-color: rgba(255,255,255,0.9);width:100%;height:100%;display: flex;justify-content: center;align-items: center;}
+.bonus_box{width: 91%;background-color: #50D074;padding: 25px 25px 0px 25px;font-family: 'roboto';color: white;font-size: 22px;font-weight: 400;line-height: 26px;border-radius: 9px;box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);}
+.bonus_box div{display: flex;}
+.center{justify-content: center;}
+.between{justify-content:space-between;}
+.negrito{font-weight: 700;}
+.margin_24{margin-bottom: 24px;}
+.margin_13{margin-bottom: 13px;}
+.bonus_confirm{width: 100%;background-color: white;color: #50D074;height: 50px;display: flex;align-items: center;border-radius: 26px;}
+.bonus_cancela{width: 100%;height: 50px;display: flex;align-items: center;}
