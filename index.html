@@ -23,39 +23,39 @@
 
         <div class="topico"> Primeiro seu prato </div>
         <div class="opcoes display-flex pratos">
-            <div class="opcao prato1" onclick="selecionar('.prato1','.pratos')">
+            <div data-test="dish" class="opcao prato1" onclick="selecionar('.prato1','.pratos')">
                 <img src="./figures/ovo.jpg" alt="ovo">
-                <div class="nome">Omelete do Souma</div>
+                <div data-test="item-name" class="nome">Omelete do Souma</div>
                 <div class="descricao">Bom, barato e gostoso</br> com Umami extra</div>
                 <div class="preco">
                     <div class="preco_box display-flex">
                         <div class="cifrao">R$ </div>
-                        <div class="numero">14.90</div>
+                        <div data-test="item-price" class="numero">14.90</div>
                     </div>    
                     <ion-icon name="checkmark-circle" class="invisivel">teste</ion-icon> 
                 </div>
             </div>
-            <div class="opcao prato2" onclick="selecionar('.prato2','.pratos')">
+            <div data-test="dish" class="opcao prato2" onclick="selecionar('.prato2','.pratos')">
                 
                 <img src="./figures/curry.png" alt="NBA">
-                <div class="nome">Stephen's curry</div>
+                <div data-test="item-name" class="nome">Stephen's curry</div>
                 <div class="descricao">A piada é ruim mas</br>o prato é bom!</div>
                 <div class="preco"> 
                     <div class="preco_box display-flex">
                         <div class="cifrao">R$ </div>
-                        <div class="numero">24.90</div>
+                        <div data-test="item-price" class="numero">24.90</div>
                     </div>     
                     <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
 
             </div>
-            <div class="opcao prato3" onclick="selecionar('.prato3','.pratos')">
+            <div data-test="dish" class="opcao prato3" onclick="selecionar('.prato3','.pratos')">
                 <img src="./figures/lamen.jpg" alt="NBA">
-                <div class="nome">Ichiraku ramen</div>
+                <div data-test="item-name" class="nome">Ichiraku ramen</div>
                 <div class="descricao">parece miojo só que</br>vem mais coisa</div>
                 <div class="preco"> 
                     <div class="preco_box display-flex">
                         <div class="cifrao">R$ </div>
-                        <div class="numero">34.90</div>
+                        <div data-test="item-price" class="numero">34.90</div>
                     </div>    
                     <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
 
@@ -67,36 +67,36 @@
     <div class="topico"> Agora, sua bebida </div>
     
     <div class="opcoes display-flex bebidas">
-        <div class="opcao bebida1" onclick="selecionar('.bebida1','.bebidas')">
+        <div data-test="drink" class="opcao bebida1" onclick="selecionar('.bebida1','.bebidas')">
             <img src="./figures/coffee.jpg" alt="kfezin">
-            <div class="nome">Café expresso</div>
+            <div data-test="item-name"  class="nome">Café expresso</div>
             <div class="descricao">preferido dos ghouls</br>e dos programadores</div>
             <div class="preco"> 
                 <div class="preco_box display-flex">
                     <div class="cifrao">R$ </div>
-                    <div class="numero">1.40</div>
+                    <div data-test="item-price" class="numero">1.40</div>
                 </div>    
                 <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
         </div>
-        <div class="opcao bebida2" onclick="selecionar('.bebida2','.bebidas')">
+        <div data-test="drink" class="opcao bebida2" onclick="selecionar('.bebida2','.bebidas')">
             <img src="./figures/slurm.jpeg" alt="futurama">
-            <div class="nome">Slurm cola</div>
+            <div data-test="item-name"  class="nome">Slurm cola</div>
             <div class="descricao">DIreto do século</br>XXXI para você</div>
             <div class="preco"> 
                 <div class="preco_box display-flex">
                     <div class="cifrao">R$ </div>
-                    <div class="numero">3.40</div>
+                    <div data-test="item-price" class="numero">3.40</div>
                 </div>   
                 <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
         </div>
-        <div class="opcao bebida3" onclick="selecionar('.bebida3','.bebidas')">
+        <div data-test="drink" class="opcao bebida3" onclick="selecionar('.bebida3','.bebidas')">
             <img src="./figures/duff.jpg" alt="duff">
-            <div class="nome">Cerveja Duff</div>
+            <div data-test="item-name"  class="nome">Cerveja Duff</div>
             <div class="descricao">Duffman adverte</br>destinado à adultos</div>
             <div class="preco"> 
                 <div class="preco_box display-flex">
                     <div class="cifrao">R$ </div>
-                    <div class="numero">3.90</div>
+                    <div data-test="item-price" class="numero">3.90</div>
                 </div>     
                 <ion-icon name="checkmark-circle" class="invisivel"></ion-icon> </div>
         </div>
@@ -105,36 +105,36 @@
     <div class="topico"> Por fim, sua sobremesa </div>
     
     <div class="opcoes display-flex sobremesas">
-        <div class="opcao sobremesa1" onclick="selecionar('.sobremesa1','.sobremesas')">
+        <div data-test="dessert" class="opcao sobremesa1" onclick="selecionar('.sobremesa1','.sobremesas')">
             <img src="./figures/akuma.jpeg" alt="akuma no mi">
-            <div class="nome">Fruta suspeita</div>
+            <div data-test="item-name"  class="nome">Fruta suspeita</div>
             <div class="descricao">Um pirata ruivo que</br>nos vendeu isso ai</div>
             <div class="preco">
                 <div class="preco_box display-flex">
                     <div class="cifrao">R$</div>
-                    <div class="numero">0.90</div>
+                    <div data-test="item-price" class="numero">0.90</div>
                 </div>      
                 <ion-icon name="checkmark-circle" class="invisivel"></ion-icon></div>
         </div>
-        <div class="opcao sobremesa2" onclick="selecionar('.sobremesa2','.sobremesas')">
+        <div data-test="dessert" class="opcao sobremesa2" onclick="selecionar('.sobremesa2','.sobremesas')">
             <img src="./figures/malasada.png" alt="alola!">
-            <div class="nome">Malasada Grande</div>
+            <div data-test="item-name"  class="nome">Malasada Grande</div>
             <div class="descricao">Cura 20 de HP e</br>condições especiais</div>
             <div class="preco">
                 <div class="preco_box display-flex">
                     <div class="cifrao">R$</div>
-                    <div class="numero">1.90</div>
+                    <div data-test="item-price" class="numero">1.90</div>
                 </div>     
                 <ion-icon name="checkmark-circle" class="invisivel"></ion-icon></div>
         </div>
-        <div class="opcao sobremesa3" onclick="selecionar('.sobremesa3','.sobremesas')">
+        <div data-test="dessert" class="opcao sobremesa3" onclick="selecionar('.sobremesa3','.sobremesas')">
             <img src="./figures/takoyaki.png" alt="Hanabi lá vou eu!">
-            <div class="nome">Bolinho de polvo</div>
+            <div  data-test="item-name"  class="nome">Bolinho de polvo</div>
             <div class="descricao">Perfeito para festival</br>de fim de temporada</div>
             <div class="preco">
                 <div class="preco_box display-flex">
                     <div class="cifrao">R$</div>
-                    <div class="numero">5.90</div>
+                    <div  data-test="item-price" class="numero">5.90</div>
                 </div>      
                 <ion-icon name="checkmark-circle" class="invisivel"></ion-icon></div>
         </div>
@@ -155,14 +155,14 @@
 
 
     <div class="pedido">
-        <button disabled onclick="clicar()">
+        <button data-test="order-btn" disabled onclick="clicar()">
             Selecione os 3 itens para fechar o pedido
         </button>
     </div>
 
 
     <div disabled class="invisivel bonus_back">
-        <div class="bonus_box invisivel">
+        <div data-test="confirm-order-modal" class="bonus_box invisivel">
             <div class="titulo negrito center margin_24">Confirme seu pedido</div>
             <div class="bonus_prato between margin_13">
                 <div class="b_nome">risoto</div>
@@ -180,14 +180,14 @@
                 <div class="b_nome">Total</div>
                 <div class="b_preco">R$12,50</div>
             </div>
-                <div class="bonus_confirm center negrito">
+                <div data-test="confirm-order-btn" class="bonus_confirm center negrito">
                     <a 
                     href="https://wa.me/5583999633138?text=Olá,%20Gostaria%20de%20fazer%20o%20pedido:%0Adesteaqui" 
                     target="_blank">
                         Tudo certo, pode pedir!
                     </a>
                 </div>
-            <div class="bonus_cancela center" onclick="cancelar()">cancelar</div>
+            <div data-test="cancel-order-btn" class="bonus_cancela center" onclick="cancelar()">cancelar</div>
         </div>
     </div>
 
