@@ -82,7 +82,7 @@ function selecionar(classe,categoria){
 
 function clicar(){
     nome=prompt('Informe seu nome:');
-    endereco = prompt('informe seu endereco:');
+    endereco = prompt('informe seu endereço:');
     //console.log("nome: "+nome+" endereço: "+endereco);
     const caixa = document.querySelector('.bonus_back');
     const caixa2 = document.querySelector('.bonus_box');
